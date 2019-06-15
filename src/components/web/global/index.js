@@ -1,0 +1,23 @@
+export {
+  Container,
+  Wrapper,
+  Headline,
+  Description,
+  Legales,
+  Label,
+  LabelLarge,
+  SecondHeadline,
+  ContainerDesktop,
+  Desktop,
+  Onboarding,
+  Terms,
+  H1,
+  SectionDescription,
+  UrlLink,
+  Timer,
+  DesktopText,
+  Bind,
+  Logo,
+  LogoMobile,
+  TextPromotion
+} from './Global';

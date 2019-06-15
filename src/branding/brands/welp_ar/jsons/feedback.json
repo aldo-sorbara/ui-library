@@ -1,0 +1,164 @@
+{
+  "connectionLost": {
+    "type": "ERROR",
+    "url": "/invalid-id",
+    "header": "¡UPS!",
+    "subHeader": "Se perdió la conexión.",
+    "image": "🦖",
+    "content": "",
+    "actionLink": "/",
+    "actionText": "Volver a empezar"
+  },
+  "invalidID": {
+    "type": "ERROR",
+    "url": "/invalid-id",
+    "header": "¡UPS!",
+    "subHeader": "Ingresá un DNI válido.",
+    "image": "💳",
+    "content": "",
+    "actionLink": "/",
+    "actionText": "Volver a empezar"
+  },
+  "blacklist": {
+    "type": "ERROR",
+    "url": "/blacklist",
+    "header": "¡Lo sentimos!",
+    "subHeader": "Por el momento, no tenemos un producto para ofrecerte.",
+    "image": "🙁",
+    "content": "Podés volver a intentar sacar un crédito más adelante.",
+    "actionLink": "/",
+    "actionText": "Volver a empezar",
+    "list": [
+      {
+        "text": "Revisá que cuentes con los requisitos"
+      },
+      {
+        "text": "Si tenés dudas ingresá a ",
+        "link": {
+          "text": "FAQ",
+          "url": "https://www.welp.com/faq.html"
+        }
+      },
+      {
+        "text": "Si tenés un problema",
+        "link": {
+          "text": "Llamanos",
+          "url": "tel:08001129357"
+        }
+      }
+    ]
+  },
+  "isClient": {
+    "type": "ERROR",
+    "url": "/is-client",
+    "header": "Ya tenés un crédito vigente.",
+    "subHeader": "",
+    "image": "👀",
+    "content": "",
+    "actionLink": "/",
+    "actionText": "Volver a empezar",
+    "list": [
+      {
+        "text": "Si tenés dudas ingresá a ",
+        "link": {
+          "text": "FAQ",
+          "url": "https://www.welp.com/faq.html"
+        }
+      },
+      {
+        "text": "Si tenés un problema",
+        "link": {
+          "text": "Llamanos",
+          "url": "tel:08001129357"
+        }
+      },
+      {
+        "text": "Seguí tu crédito en",
+        "link": {
+          "text": "Mi Cuenta Welp",
+          "url": "https://www.welp.com/micuenta/"
+        }
+      }
+    ]
+  },
+  "repeatedID": {
+    "type": "ERROR",
+    "url": "/repeated-id",
+    "header": "¡Lo sentimos!",
+    "subHeader": "Hubo un problema con tu DNI.",
+    "image": "💳",
+    "content": "Encontramos más de un registro para el DNI que ingresaste. Para tu seguridad, por favor, completá el siguiente formulario.",
+    "actionLink": "/",
+    "actionText": "Volver a empezar"
+  },
+  "noProduct": {
+    "type": "ERROR",
+    "url": "/no-product",
+    "header": "¡UPS!",
+    "subHeader": "No tenemos un producto para ofrecerte.",
+    "image": "🙁",
+    "content": "",
+    "actionLink": "/",
+    "actionText": "Volver a empezar",
+    "list": [
+      {
+        "text": "Revisá que cuentes con los requisitos"
+      },
+      {
+        "text": "Si tenés dudas ingresá a ",
+        "link": {
+          "text": "FAQ",
+          "url": "https://www.welp.com/faq.html"
+        }
+      },
+      {
+        "text": "Si tenés un problema",
+        "link": {
+          "text": "Llamanos",
+          "url": "tel:08001129357"
+        }
+      }
+    ]
+  },
+  "invalidURL": {
+    "type": "ERROR",
+    "url": "/invalid-url",
+    "header": "¿Estás perdid@?",
+    "subHeader": "Volvé a intentarlo.",
+    "image": "🕵",
+    "content": "Hacé click aquí abajo para comenzar de nuevo.",
+    "actionLink": "/",
+    "actionText": "Volver a empezar"
+  },
+  "genericError": {
+    "type": "ERROR",
+    "url": "/notification",
+    "header": "¡UPS!",
+    "subHeader": "Volvé a empezar.",
+    "image": "🕵",
+    "content": "Hacé click aquí abajo para comenzar de nuevo.",
+    "actionLink": "/",
+    "actionText": "Volver a empezar"
+  },
+  "timeOut": {
+    "type": "ERROR",
+    "url": "/timeout",
+    "header": "Volvé a intentarlo.",
+    "subHeader": "",
+    "image": "🕵",
+    "content": "",
+    "actionLink": "/",
+    "actionText": "Volver a empezar"
+  },
+  "success": {
+    "type": "SUCCESS",
+    "url": "/success",
+    "header": "¡Felicitaciones!",
+    "subHeader": "Tu dinero está viajando a tu cuenta.",
+    "image": "✅",
+    "content": "Próximamente lo verás acreditado en tu cuenta sueldo."
+  },
+  "landingRedirect": {
+    "url": ""
+  }
+}

@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification component should render snapshot 1`] = `
+.c1 {
+  background-color: transparent;
+  margin: 0 auto;
+  max-width: unset;
+}
+
+.c2 {
+  overflow-x: hidden;
+  padding: 2rem;
+  text-align: center;
+}
+
+.c5 {
+  margin-bottom: .5rem;
+  margin-left: 0;
+  margin-top: 0;
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.c7 {
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.c8 {
+  -webkit-align-items: unset;
+  -webkit-box-align: unset;
+  -ms-flex-align: unset;
+  align-items: unset;
+  box-sizing: border-box;
+  display: inline-block;
+  -webkit-box-pack: unset;
+  -webkit-justify-content: unset;
+  -ms-flex-pack: unset;
+  justify-content: unset;
+  -webkit-order: unset;
+  -ms-flex-order: unset;
+  order: unset;
+  padding: 0;
+  vertical-align: top;
+  width: 100%;
+}
+
+.c9 {
+  margin: 0;
+}
+
+.c10 {
+  margin-bottom: .5rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25;
+  padding: 0 0 0 1rem;
+}
+
+.c10:last-child {
+  margin-bottom: 0;
+}
+
+.c10:before {
+  top: .25rem;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 3rem 4.5rem 3rem;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 1.75rem 0 1.75rem;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 4.75rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:992px) {
+  .c8 {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .c8 {
+    width: 100%;
+  }
+}
+
+@media (max-width:576px) {
+  .c8 {
+    width: 100%;
+  }
+}
+
+<div
+  action={null}
+  className="c0"
+  content={null}
+  data={
+    Array [
+      Object {
+        "text": "Revisá que cuentes con los requisitos",
+      },
+      Object {
+        "link": Object {
+          "text": "FAQ",
+          "url": "https://www.welp.com/preguntas-frecuentes.html",
+        },
+        "text": "Si tenés dudas ingresá a ",
+      },
+      Object {
+        "link": Object {
+          "text": "Llamanos",
+          "url": "tel:08001129357",
+        },
+        "text": "Si tenés un problema",
+      },
+    ]
+  }
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        <svg
+          style={
+            Object {
+              "height": "100px",
+              "width": "100px",
+            }
+          }
+          viewBox="0 0 50 50"
+        >
+          <circle
+            cx="25"
+            cy="25"
+            fill="#7ed321"
+            r="25"
+          />
+          <path
+            d="M38 15L22 33l-10-8"
+            fill="none"
+            stroke="#fff"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="10"
+            strokeWidth="2"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4"
+      >
+        <h1
+          className="c5"
+          data-w="notification_title"
+        >
+          ¡Ups!
+        </h1>
+      </div>
+      <div
+        className="c6"
+      >
+        <p
+          className="c7"
+          data-w="notification_subtitle"
+          style={
+            Object {
+              "fontSize": "1rem",
+            }
+          }
+        >
+          No tenemos ningún producto para ofrecerte
+        </p>
+      </div>
+      <div
+        className="c8"
+        data="notification"
+      >
+        <ul
+          className="c9"
+          data="notification_list"
+          style={
+            Object {
+              "fontSize": "0.75rem",
+              "textAlign": "left",
+            }
+          }
+        >
+          <li
+            className="c10"
+          >
+            Revisá que cuentes con los requisitos
+             
+          </li>
+          <li
+            className="c10"
+          >
+            Si tenés dudas ingresá a 
+             
+            <a
+              href="https://www.welp.com/preguntas-frecuentes.html"
+              target="_blank"
+            >
+              FAQ
+            </a>
+          </li>
+          <li
+            className="c10"
+          >
+            Si tenés un problema
+             
+            <a
+              href="tel:08001129357"
+              target="_blank"
+            >
+              Llamanos
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

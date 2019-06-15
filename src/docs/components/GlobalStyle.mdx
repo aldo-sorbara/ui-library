@@ -1,0 +1,28 @@
+---
+name: GlobalStyle
+menu: Components
+route: /globalStyle
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import GlobalStyle from '../../components/web/globalstyle';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import { styles } from '../../../utils/docz';
+
+# GlobalStyle
+
+<PropsTable of={GlobalStyle} />
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <div>
+      <GlobalStyle theme={welp_ar.theme} />
+      <h1> h1 with GlobalStyle</h1>
+      <a href='#'> link with GlobalStyle</a>
+    </div>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/globalstyle--h1-with-globalstyle-and-default-props)

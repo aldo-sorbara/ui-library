@@ -1,0 +1,53 @@
+---
+name: Notification
+menu: Components
+route: /notification
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import Notification from '../../components/web/notification';
+import { Button } from '../../components/web/button';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+
+# Notification
+
+<PropsTable of={Notification} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <Notification
+        header={
+          welp_ar.wording.onboarding.notifications.productNotAvailable.headline
+        }
+        subHeader={
+          welp_ar.wording.onboarding.notifications.productNotAvailable
+            .description
+        }
+        data={welp_ar.wording.onboarding.notifications.productNotAvailable.list}
+        icon={
+          welp_ar.wording.onboarding.notifications.productNotAvailable.emoji
+        }
+        action={
+          <Button isBlocked data='notification_button'>
+            Siguiente
+          </Button>
+        }
+      />
+      <Notification
+        header={welp_ar.wording.onboarding.success.headline}
+        subHeader={welp_ar.wording.onboarding.success.description}
+        data={welp_ar.wording.onboarding.success.list}
+        imageUrl={'./public/images/posta-success.png'}
+      />
+    </>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/notification--with-default-props)

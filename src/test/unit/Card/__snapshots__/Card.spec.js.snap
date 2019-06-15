@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component should render snapshot 1`] = `
+.c0 {
+  border: 1px solid #d5d8df;
+  box-shadow: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem;
+}
+
+<div
+  className="test-card c0"
+  data-w="card"
+>
+  Card container
+</div>
+`;

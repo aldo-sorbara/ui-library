@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component should render snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1050;
+}
+
+.c1 {
+  background-color: rgba(255,255,255,0.75);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}
+
+.c2 {
+  background-color: #73baff;
+  color: #ffffff;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.c2 > div {
+  margin-bottom: 1.5rem;
+}
+
+.c3 {
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+}
+
+.c3 svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+@media (min-width:768px) {
+  .c2 {
+    margin: 1.5rem;
+    padding: 2rem;
+  }
+}
+
+<div
+  className="test-card c0"
+  style={
+    Object {
+      "opacity": 0,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "width": 0,
+      }
+    }
+  />
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      style={Object {}}
+    >
+      <div
+        className="c3"
+        onClick={null}
+      />
+      <div
+        style={
+          Object {
+            "transform": "translateY(300%)",
+          }
+        }
+      >
+        <div>
+          test
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

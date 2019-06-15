@@ -1,0 +1,40 @@
+{
+  "common": {
+    "bodyBg": "#ffffff",
+    "disabled": "#d5d8df",
+    "text": {
+      "default": "#000000",
+      "disabled": "#d5d8df",
+      "inverse": "#ffffff"
+    }
+  },
+  "error": {
+    "default": "#d0021b",
+    "light": "#f66562",
+    "dark": "#000000"
+  },
+  "info": {
+    "default": "#17a3b8",
+    "light": "#e0f6f9",
+    "dark": "#127a87"
+  },
+  "primary": {
+    "default": "#0082ff",
+    "light": "#73baff",
+    "dark": "#3a66ab"
+  },
+  "secondary": {
+    "default": "#c346f9",
+    "light": "#de9afb",
+    "dark": "#c346f9"
+  },
+  "success": {
+    "default": "#7ed321",
+    "light": "#b8e785",
+    "dark": "#000000"
+  },
+  "warning": {
+    "light": "#FEE283",
+    "dark": "#000000"
+  }
+}

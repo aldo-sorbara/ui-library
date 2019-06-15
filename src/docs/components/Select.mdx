@@ -1,0 +1,256 @@
+---
+name: Select
+menu: Components
+route: /select
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import Select from '../../components/web/select';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+
+# Select
+
+<PropsTable of={Select} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <div style={{margin:'20px'}}>
+      <Select
+        placeholder='Ingrese un brand'
+        label='Seleccione un brand'
+        options={[
+          { label: 'Mango', value: 'mango' },
+          { label: 'Welp', value: 'welp' },
+          { label: 'Posta', value: 'posta' }
+        ]}
+      />
+      </div>
+      <div style={{margin:'20px'}}>
+      <Select
+        placeholder='Ingrese un brand'
+        label='Seleccione un brand'
+        options={[
+          { label: 'Mango', value: 'mango' },
+          { label: 'Welp', value: 'welp' },
+          { label: 'Posta', value: 'posta' }
+        ]}
+        meta={{
+            dirty: true,
+            touched: true,
+            visited: true,
+            valid:true
+          }}
+      />
+    </div>
+    <div style={{margin:'20px'}}>
+      <Select
+        placeholder='Ingrese un brand'
+        label='Seleccione un brand'
+        options={[
+          { label: 'Mango', value: 'mango' },
+          { label: 'Welp', value: 'welp' },
+          { label: 'Posta', value: 'posta' }
+        ]}
+        meta={{
+            error: true,
+            dirty: true,
+            touched: true,
+            visited: true,
+          }}
+      />
+    </div>
+    <div style={{margin:'20px'}}>
+      <Select
+        placeholder='Ingrese un banco'
+        label='Seleccione un banco'
+        options={[
+          {
+            "label": "Banco de la Provincia de Buenos Aires",
+            "value": "014"
+          },
+          {
+            "label": "Banco Galicia",
+            "value": "007"
+          },
+          {
+            "label": "Santander Rio",
+            "value": "072"
+          },
+          {
+            "label": "Banco Nacion",
+            "value": "011"
+          },
+          {
+            "label": "-",
+            "value": "-"
+          },
+          {
+            "label": "Banco Ciudad",
+            "value": "029"
+          },
+          {
+            "label": "Banco Columbia",
+            "value": "389"
+          },
+          {
+            "label": "Banco Comafi",
+            "value": "299"
+          },
+          {
+            "label": "Banco Corrientes",
+            "value": "094"
+          },
+          {
+            "label": "Banco de Formosa",
+            "value": "315"
+          },
+          {
+            "label": "Banco de La Pampa",
+            "value": "093"
+          },
+          {
+            "label": "Banco de la Provincia de Buenos Aires",
+            "value": "014"
+          },
+          {
+            "label": "Banco de la Provincia de Chubut",
+            "value": "083"
+          },
+          {
+            "label": "Banco de la Provincia de Cordoba",
+            "value": "020"
+          },
+          {
+            "label": "Banco de la Provincia de Neuquen",
+            "value": "097"
+          },
+          {
+            "label": "Banco de Tierra Del Fuego",
+            "value": "268"
+          },
+          {
+            "label": "Banco Frances",
+            "value": "017"
+          },
+          {
+            "label": "Banco Galicia",
+            "value": "007"
+          },
+          {
+            "label": "Banco Hipotecario",
+            "value": "044"
+          },
+          {
+            "label": "Banco Industrial S.A.",
+            "value": "322"
+          },
+          {
+            "label": "Banco Itau",
+            "value": "259"
+          },
+          {
+            "label": "Banco Macro",
+            "value": "285"
+          },
+          {
+            "label": "Banco Municipal de Rosario",
+            "value": "065"
+          },
+          {
+            "label": "Banco Nacion",
+            "value": "011"
+          },
+          {
+            "label": "Banco Patagonia",
+            "value": "034"
+          },
+          {
+            "label": "Banco Piano",
+            "value": "301"
+          },
+          {
+            "label": "Banco Regional de Cuyo",
+            "value": "079"
+          },
+          {
+            "label": "Banco San Juan",
+            "value": "045"
+          },
+          {
+            "label": "Banco Santa Cruz",
+            "value": "086"
+          },
+          {
+            "label": "Banco Santa Fe",
+            "value": "330"
+          },
+          {
+            "label": "Banco Santiago Del Estero",
+            "value": "321"
+          },
+          {
+            "label": "Banco Supervielle",
+            "value": "027"
+          },
+          {
+            "label": "Banco Tucuman",
+            "value": "060"
+          },
+          {
+            "label": "Citibank",
+            "value": "016"
+          },
+          {
+            "label": "HSBC",
+            "value": "150"
+          },
+          {
+            "label": "Nuevo Banco de Entre Rios",
+            "value": "386"
+          },
+          {
+            "label": "Nuevo Banco de la Rioja",
+            "value": "309"
+          },
+          {
+            "label": "Nuevo Banco del Chaco",
+            "value": "311"
+          },
+          {
+            "label": "Santander Rio",
+            "value": "072"
+          },
+          {
+            "label": "Standard Bank / ICBC",
+            "value": "015"
+          },
+          {
+            "label": "Banco Credicoop",
+            "value": "191"
+          },
+          {
+            "label": "Banco Finansur S.A.",
+            "value": "303"
+          }
+        ]}
+        meta={{
+            error: true,
+            dirty: true,
+            touched: true,
+            visited: true,
+          }}
+      />
+    </div>
+    </>
+
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/select--with-default-props)

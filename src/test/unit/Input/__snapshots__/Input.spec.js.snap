@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component should render snapshot 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c3 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.33;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: inherit;
+  font-weight: normal;
+  padding-right: .25rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.c4 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.33;
+  border: 0;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: inherit;
+  font-weight: normal;
+  width: 1%;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c4:focus ~ div {
+  background-color: #c346f9;
+  opacity: 1;
+}
+
+.c4:-webkit-autofill,
+.c4:-webkit-autofill:hover,
+.c4:-webkit-autofill:focus {
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+  -webkit-text-fill-color: #000;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.c4::-webkit-input-placeholder {
+  color: #d5d8df;
+}
+
+.c4::-moz-placeholder {
+  color: #d5d8df;
+}
+
+.c4:-ms-input-placeholder {
+  color: #d5d8df;
+}
+
+.c4::placeholder {
+  color: #d5d8df;
+}
+
+.c1 {
+  display: block;
+  line-height: 1;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.33;
+  font-weight: 700;
+  padding-bottom: .25rem;
+}
+
+.c2 {
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: .25rem;
+  padding: .25rem .25rem .25rem 0;
+  line-height: 1.5;
+  position: relative;
+  width: 100%;
+}
+
+.c6 {
+  background-color: #000000;
+  opacity: 0.2;
+  bottom: 0;
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+  width: 100%;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.33;
+  white-space: nowrap;
+}
+
+.c5 > svg {
+  display: block;
+  height: 1.125rem;
+  width: 1.125rem;
+}
+
+<div
+  className="c0"
+>
+  <label
+    className="c1"
+  >
+    Ingrese su celular
+     
+  </label>
+  <div
+    className="c2"
+    size="default"
+  >
+    <span
+      className="c3"
+      size="default"
+    >
+      15
+    </span>
+    <input
+      className="c4"
+      data="ingrese su celular"
+      data-w="ingrese su celular"
+      label="Ingrese su celular"
+      name="validationcellphone"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="42424242"
+      prefix="15"
+      size="default"
+      type="number"
+    />
+    <span
+      className="c5"
+      size="default"
+    />
+    <div
+      className="c6"
+      data="ingrese su celular"
+      label="Ingrese su celular"
+      name="validationcellphone"
+      onChange={null}
+      placeholder="42424242"
+      prefix="15"
+      size="default"
+      type="number"
+    />
+  </div>
+</div>
+`;

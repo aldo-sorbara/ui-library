@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Question component should render Description snapshot 1`] = `
+.c0 {
+  margin-bottom: 0;
+  margin-top: 1rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.c0 a {
+  cursor: pointer;
+}
+
+<p
+  className="test-description c0"
+  data="description"
+>
+  This is a Description component
+</p>
+`;
+
+exports[`Question component should render QuestionTitle snapshot 1`] = `
+.c0 {
+  margin-bottom: .25rem;
+  margin-top: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.33;
+}
+
+<h2
+  className="test-questionTitle c0"
+  data="question-title"
+>
+  This is a QuestionTitle component
+</h2>
+`;

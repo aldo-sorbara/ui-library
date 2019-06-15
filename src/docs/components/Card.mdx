@@ -1,0 +1,33 @@
+---
+name: Card
+menu: Components
+route: /card
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import Card from '../../components/web/card';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+import { styles } from '../../../utils/docz';
+
+# Card
+
+<PropsTable of={Card} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <Card data='card'>This is a Card container.</Card>
+      <Card active data='card'>
+        This is an active Card container.
+      </Card>
+    </>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/card--with-default-props)

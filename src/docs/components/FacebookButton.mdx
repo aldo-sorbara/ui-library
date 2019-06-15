@@ -1,0 +1,32 @@
+---
+name: FacebookButton
+menu: Components
+route: /facebookButton
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import FacebookButton from '../../components/web/facebookbutton';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+
+# FacebookButton
+
+<PropsTable of={FacebookButton} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <FacebookButton
+        facebookCallback={response => console.log(response)}
+        config={welp_ar.config.onboarding}
+      />
+    </>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/facebookbutton--with-default-props)

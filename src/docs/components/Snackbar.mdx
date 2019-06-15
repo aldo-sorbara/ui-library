@@ -1,0 +1,64 @@
+---
+name: Snackbar
+menu: Components
+route: /snackbar
+---
+
+import { Playground, PropsTable } from 'docz';
+import Snackbar from '../../components/web/snackbar';
+import { Button } from '../../components/web/button';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+import { styles } from '../../../utils/docz';
+
+# Card
+
+<PropsTable of={Snackbar} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+       <Snackbar
+        title={welp_ar.wording.onboarding.basicInfo.inputSMS.alert.contentFeatured}
+        content={welp_ar.wording.onboarding.basicInfo.inputSMS.alert.content}
+        action={
+          <Button modifiers={['link', 'rounded']} data='dismiss'>
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              fill='currentColor'
+              height='24'
+              width='24'
+              viewBox='0 0 35 35'
+            >
+              {/* eslint-disable max-len */}
+                <path d='M26 22.87A2.14 2.14 0 0 1 26 26a2.14 2.14 0 0 1-3.13 0l-5.54-5.54-5.5 5.5c-.45.45-.98.68-1.58.7A2.1 2.1 0 0 1 8.67 26 2.1 2.1 0 0 1 8 24.42c.01-.6.24-1.13.7-1.58l5.5-5.5-5.54-5.55a2.15 2.15 0 0 1 0-3.12 2.14 2.14 0 0 1 3.12 0l5.54 5.54 5.54-5.54a2.15 2.15 0 0 1 3.13 0 2.14 2.14 0 0 1 0 3.12l-5.54 5.54L26 22.87z' />
+              {/* eslint-enable max-len */}
+            </svg>
+          </Button>
+        }
+      />
+       <Snackbar
+        title={welp_ar.wording.onboarding.basicInfo.inputSMS.alert.contentFeatured}
+        content={welp_ar.wording.onboarding.basicInfo.inputSMS.alert.content}
+        modifier="success"
+      />
+       <Snackbar
+        title={welp_ar.wording.onboarding.basicInfo.inputSMS.alert.contentFeatured}
+        content={welp_ar.wording.onboarding.basicInfo.inputSMS.alert.content}
+        modifier="warning"
+      />
+       <Snackbar
+        title={welp_ar.wording.onboarding.basicInfo.inputSMS.alert.contentFeatured}
+        content={welp_ar.wording.onboarding.basicInfo.inputSMS.alert.content}
+        modifier="error"
+      />
+    </>
+
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/snackbar--with-default-props)

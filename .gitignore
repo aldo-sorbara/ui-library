@@ -1,0 +1,51 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# config
+.docz
+
+#bit
+.bitmap
+src/components/**/dist
+src/components/**/node_modules
+src/components/**/.bit
+src/.bit
+# dependencies
+components/*
+/node_modules
+/dist
+/.pnp
+.pnp.js
+
+#LICENSE
+/LICENSE
+src/components/**/LICENSE
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# JetBrains IDE's
+.idea/
+
+# VsCode IDE's
+.vscode/
+
+# Sublime Text files
+*.sublime-project
+*.sublime-workspace
+
+# dependencies
+/node_modules

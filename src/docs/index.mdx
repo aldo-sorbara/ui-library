@@ -1,0 +1,97 @@
+---
+name: Home
+route: /
+---
+
+# Introduction
+
+## Available components
+
+### Web
+
+- AppBar
+- Button
+- Card
+- Checkbox
+- Emoji
+- FacebookButton
+- FormBlock
+- Global
+- GlobalStyle
+- Grids
+- Hero
+- Input
+- List
+- Loading
+- Modal
+- Notification
+- RadioButton
+- Select
+- Snackbar
+- SpotlightInput
+- Stepper
+- TextTransform
+- Question
+
+## Installation
+
+To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
+
+```
+# Clone the repository
+$ git clone git@github.com:wenance/react-common-ui.git
+
+# Go into the repository
+$ cd react-common-ui
+
+# Install dependencies
+$ npm install
+```
+
+## Basic usage
+
+Common UI uses [Bit](https://bitsrc.io/) to share components, so you have to install the package before using it:
+
+```
+# Install Bit globally
+$ npm install bit-bin -g
+
+# Login to your Bit account
+$ bit login
+```
+
+### Importing and Exporting components
+
+It is really important to import the components from Bit before editing them:
+
+```
+$ bit import wenance.common-ui/{platform}/{component} --ignore-package-json --ignore-dist --override
+
+# For example: bit import wenance.common-ui/web/global --ignore-package-json --ignore-dist --override
+```
+
+And exporting them when finished editing:
+
+```
+$ bit export wenance.common-ui {plarform}/{component}
+
+# For example: bit export wenance.common-ui web/global
+```
+
+For more information about Bit commands, visit the [Docs](https://docs.bitsrc.io/).
+
+## Test
+
+Check out our current [coverage report](./jest/index.html).
+
+## Documentation
+
+Check out our [Github repository](https://github.com/wenance/react-common-ui).
+
+## Changelog
+
+Detailed changes for each release are documented in the [release notes](https://github.com/wenance/react-common-ui/releases).
+
+## Support
+
+For any suggestion or help email us to **frontendteam@wenance.com**

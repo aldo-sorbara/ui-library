@@ -1,0 +1,66 @@
+---
+name: RadioButton
+menu: Components
+route: /radioButton
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import { RadioButton, RadioGroup } from '../../components/web/radiobutton';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+import { styles } from '../../../utils/docz';
+
+# RadioButton
+
+## RadioButton Props
+
+<PropsTable of={RadioGroup} />
+
+## RadioGroup Props
+
+<PropsTable of={RadioButton} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <h2>Blocked:</h2>
+      <RadioGroup
+        name='test'
+        onChange={value => {
+          console.log(value);
+        }}
+      >
+        <RadioButton data='test1' value='test1' label='test1' />
+        <RadioButton data='test2' value='test2' label='test2' />
+      </RadioGroup>
+      <h2>Inline:</h2>
+      <RadioGroup
+        name='test-inline'
+        onChange={value => {
+          console.log(value);
+        }}
+        inline
+      >
+        <RadioButton data='test1' value='test1' label='test1' />
+        <RadioButton data='test2' value='test2' label='test2' />
+        <RadioButton
+          data='test3'
+          value='test3'
+          label={
+            <div>
+              {' '}
+              Test <a href=''>terminos y condiciones</a>
+            </div>
+          }
+        />
+      </RadioGroup>
+    </>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/radiobutton--with-default-props)

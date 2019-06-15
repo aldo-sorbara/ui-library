@@ -1,0 +1,533 @@
+{
+  "mainHeadline": {
+    "headline": "Sacar un crédito en welp es fácil 👉"
+  },
+  "landingPage": {
+    "alert": {
+      "contentFeatured": "¡Importante!",
+      "content": "Recordá ingresar el mismo mail que utilizaste en el formulario anterior"
+    },
+    "firstSection": {
+      "h1": "Soñá en grande",
+      "description": "Créditos personales 100% online, con plazos y tasas a tu medida.",
+      "button": "Comenzar"
+    },
+    "leadFirstSection": {
+      "h1": "Bienvenido al mundo welp",
+      "description": "Hacé click y obtené tu crédito 100% online.",
+      "button": "Continuar"
+    },
+    "secondSection": {
+      "list": {
+        "item1": "Elegí el monto que querés.",
+        "item2": "Completá un formulario con tus datos personales.",
+        "item3": "Decidí en cuántas cuotas querés pagar."
+      }
+    },
+    "thirdSection": {
+      "headline": "Solo necesitás",
+      "list": {
+        "item1": "Ser mayor de 18 años.",
+        "item2": "Estar en relación de dependencia.",
+        "item3": "Tener una cuenta sueldo.",
+        "item4": "Tener el número de CBU a mano."
+      },
+      "secondHeadline": "¡Y listo!",
+      "description": "Validamos tu score crediticio y te ofrecemos un crédito a medida."
+    },
+    "terms": {
+      "p1": "La Tasa Nominal Anual (TNA), la Tasa Efectiva Anual (TEA) y el Costo Financiero Total Efectivo Anual (CFT o CFTEA) varían según el perfil crediticio del solicitante del préstamo y plazo de financiación elegido. En todos los casos, la TNA, TEA y el CFT aplicable serán informados al momento de ingresar la solicitud del préstamo y antes de su otorgamiento.",
+      "p2": "Tasa Nominal Anual (TNA) sin IVA: Mínimo: 85% - Máximo: 140% | Tasa Efectiva Anual (TEA) sin IVA: Mínimo: 138% - Máximo: 536% | Costo Financiero Total Efectivo Anual (CFTEA) con IVA: Mínimo: 168% - Máximo: 390%.",
+      "p3": "Ejemplo de crédito: Monto solicitado de $50.000 a 18 meses | TNA (sin IVA): 85% - TEA (sin IVA): 127% - CFTEA (con IVA): 168% | Cuota inicial: $ $5.548 | Total a pagar: $99.864 | Plazo mín. 3 meses y máx. 36 meses.",
+      "p4": "Costos para pagos fuera de término: Intereses punitorios: 50% adicional a la TNA del préstamo, más una tasa fija de interés compensatorio diario similar a la tasa por la cual se ha otorgado el préstamo.",
+      "p5": "El plazo mínimo de repago del préstamo es de 3 meses y el máximo de 36 meses. Cuotas mensuales, iguales y consecutivas ‘calculadas mediante el sistema de amortización francés.",
+      "p6": "Las cuotas del préstamo se debitarán automáticamente de la cuenta bancaria informada en los plazos y términos pactados. Para más información ver términos y condiciones del servicio.",
+      "p7": "Wenance S.A., CUIT 30-70804498-5, con domicilio en Vuelta de Obligado 1947, Piso 3 B, CABA."
+    }
+  },
+  "landing": {
+    "headline": "Contanos un poco de vos ✨",
+    "description": "",
+    "label": {
+      "wanted": "Y quiero:",
+      "name": "Soy:",
+      "desire": "Desearía:",
+      "fees": "En:"
+    },
+    "fees": {
+      "label": {
+        "placeholder": "Cuotas mensuales"
+      },
+      "answers": [
+        {
+          "label": "6 cuotas mensuales",
+          "value": "6"
+        },
+        {
+          "label": "9 cuotas mensuales",
+          "value": "9"
+        },
+        {
+          "label": "12 cuotas mensuales",
+          "value": "12"
+        },
+        {
+          "label": "15 cuotas mensuales",
+          "value": "15"
+        },
+        {
+          "label": "18 cuotas mensuales",
+          "value": "18"
+        },
+        {
+          "label": "24 cuotas mensuales",
+          "value": "24"
+        }
+      ]
+    },
+    "types": {
+      "label": {
+        "placeholder": "¿Qué harás?"
+      },
+      "answers": [
+        {
+          "label": "Comprar electrodomésticos",
+          "value": "comprar-electrodomesticos"
+        },
+        {
+          "label": "Arreglar mi casa",
+          "value": "arreglar-casa"
+        },
+        {
+          "label": "Reparar el auto",
+          "value": "reparar-auto"
+        },
+        {
+          "label": "Comprar una moto",
+          "value": "comprar-moto"
+        },
+        {
+          "label": "Ir de vacaciones",
+          "value": "ir-vacaciones"
+        },
+        {
+          "label": "Ponerme al día",
+          "value": "ponerme-dia"
+        },
+        {
+          "label": "Lo estoy pensando",
+          "value": "estoy-pensando"
+        }
+      ]
+    },
+    "input": {
+      "placeholder": "15.000"
+    },
+    "name": {
+      "placeholder": "Tu nombre"
+    },
+    "descriptionMoney": "Podés pedir ",
+    "howmuch": "hasta $300.000",
+    "action": "Siguiente",
+    "alert": {
+      "contentFeatured": "¡Recordá tener a mano tu CBU!",
+      "content": "Te lo vamos a pedir más adelante."
+    }
+  },
+  "checkInfoFromLead": {
+    "headline": "Revisá tus datos",
+    "description": "Tu información personal está 100% protegida.",
+    "inputEmail": {
+      "label": "Tu mail"
+    },
+    "inputSMS": {
+      "label": "Ingresá aquí el código SMS que recibiste",
+      "placeholder": "1234",
+      "link1": "Reenviar código",
+      "link1Desc": "en",
+      "link2": "Modificar celular",
+      "link2Cancel": "Cancelar"
+    },
+    "name": {
+      "label": "Tu Nombre"
+    },
+    "inputDNI": {
+      "label": "Tu DNI"
+    },
+    "inputPhone": {
+      "label": "Tu número de teléfono"
+    },
+    "birthDate": {
+      "label": "Fecha de Nacimiento"
+    },
+    "fiscalId": {
+      "label": "Cuil"
+    },
+    "bank": {
+      "label": "Seleccioná el Banco donde te depositan el sueldo.",
+      "placeholder": "Seleccioná tu banco"
+    },
+    "workStatus": {
+      "question": "¿Cuál es tu situación laboral?",
+      "label": "Situación Laboral",
+      "answers": [
+        {
+          "label": "Relación de dependencia",
+          "value": "relacion-dependecia"
+        },
+        {
+          "label": "Jubilado o Independiente",
+          "value": "jubilado-independiente"
+        },
+        {
+          "label": "Sin empleo formal",
+          "value": "sin-empleo-formal"
+        }
+      ]
+    },
+    "bankLabel": {
+      "label": "Tu Banco"
+    },
+    "action": "Siguiente",
+    "checkbox": {
+      "label": "Acepto los ",
+      "anchor": "Términos y Condiciones",
+      "link": "https://www.welp.com/terminos-y-condiciones-welp.pdf"
+    }
+  },
+  "initialInfo": {
+    "headline": "Contanos sobre vos 😀",
+    "description": "Tu información personal está 100% protegida.",
+    "inputEmail": {
+      "suggestion": "Quisiste decir",
+      "label": "Tu mail",
+      "description": "Para mandarte el detalle de tu crédito.",
+      "placeholder": "ejemplo@mail.com"
+    },
+    "inputDNI": {
+      "label": "Tu DNI",
+      "description": "Para consultar tu score crediticio.",
+      "link": "¿Qué es?",
+      "placeholder": "12345678"
+    },
+    "modal": {
+      "validation": {
+        "headline": "¿Por qué pedimos tu DNI?",
+        "description": "Usamos tu DNI para consultar bases de datos financieras y ofrecerte un crédito por un monto que se adapte a vos y tus necesidades.",
+        "action": {
+          "button": "OK!",
+          "emoji": "👌"
+        }
+      }
+    },
+    "inputPhone": {
+      "headline": "Tu celular",
+      "description": "Vas a recibir un código por SMS.",
+      "areaCode": {
+        "description": "Cod. Área",
+        "placeholder": "11"
+      },
+      "phoneNumber": {
+        "description": "Número de teléfono",
+        "placeholder": "55555555"
+      }
+    },
+    "action": "Siguiente",
+    "checkbox": {
+      "label": "Acepto los ",
+      "anchor": "Términos y Condiciones",
+      "link": "https://www.welp.com/terminos-y-condiciones-welp.pdf"
+    }
+  },
+  "basicInfo": {
+    "headline": "¡Hola! 👋",
+    "inputSMS": {
+      "label": "Ingresá el código que recibiste por SMS",
+      "placeholder": "1234",
+      "link1": "Reenviar SMS",
+      "link1Desc": "en",
+      "link2": "Modificar celular",
+      "link2Cancel": "Cancelar",
+      "alert": {
+        "contentFeatured": "¡Revisá tus mensajes!",
+        "content": "Si no recibiste el código podés reenviarlo usando el siguiente link."
+      }
+    },
+    "inputPhone": {
+      "headline": "Tu celular",
+      "description": "Vas a recibir un código por SMS.",
+      "areaCode": {
+        "description": "Cod. Área",
+        "placeholder": "11"
+      },
+      "phoneNumber": {
+        "description": "Número de teléfono",
+        "placeholder": "56127692"
+      },
+      "checkBox": {
+        "label": "Acepto los Términos y Condiciones",
+        "link": "https://www.welp.com/terminos-y-condiciones-welp.pdf"
+      }
+    },
+    "bank": {
+      "label": "¿En qué banco tenés tu cuenta sueldo?",
+      "placeholder": "Seleccioná tu banco"
+    },
+    "workStatus": {
+      "question": "¿Cuál es tu situación laboral?",
+      "answers": [
+        {
+          "label": "Relación de dependencia",
+          "value": "relacion-dependecia"
+        },
+        {
+          "label": "Jubilado o Independiente",
+          "value": "jubilado-independiente"
+        },
+        {
+          "label": "Sin empleo formal",
+          "value": "sin-empleo-formal"
+        }
+      ]
+    },
+    "action": "Siguiente"
+  },
+  "confirmIdentity": {
+    "headline": "Confirmanos tu identidad 🙂",
+    "radiobutton": {
+      "question": "Seleccioná una opción",
+      "answers": []
+    },
+    "action": "Confirmar",
+    "customAction": {
+      "url": "/informacion-inicial",
+      "urlFb": "/confirmar-informacion",
+      "texts": [
+        "No soy esta persona",
+        "No soy ninguna de estas personas"
+      ]
+    }
+  },
+  "products": {
+    "headline": "Tu crédito fue aprobado 🙌",
+    "disclaimer": "Cuotas mensuales, iguales y consecutivas; sistema de amortización francés. En todos los casos, la TNA y el CFT aplicable será informado por Welp luego de ingresada la solicitud del crédito y antes de su otorgamiento. Sin gastos de otorgamiento ni gastos extra.",
+    "input": {
+      "label": "Ingresá el monto final",
+      "description": "Podés pedir hasta",
+      "placeholder": "15000"
+    },
+    "radiobutton": {
+      "question": "¿En cuántas cuotas querés pagarlo?",
+      "error": "No hay producto para el monto ingresado",
+      "answers": [
+        {
+          "label": "3 pagos de $15.000",
+          "value": "3 cuotas de $15.000"
+        },
+        {
+          "label": "6 pagos de $7.500",
+          "value": "6 cuotas de $7.500"
+        },
+        {
+          "label": "12 pagos de $3.200",
+          "value": "12 cuotas de $3.200"
+        },
+        {
+          "label": "24 pagos de $1.600",
+          "value": "24 cuotas de $1.600"
+        }
+      ]
+    },
+    "action": "Siguiente"
+  },
+  "personalInfo": {
+    "headline": "¿Dónde te depositamos?",
+    "description": "Vamos a usar esta cuenta para depositarte los fondos y hacer los cobros mensuales por débito automático.",
+    "inputCBU": {
+      "label": "CBU",
+      "description": "Ingresá el CBU de tu cuenta sueldo",
+      "placeholder": "ej. 2217263838262682",
+      "link": "¿Qué es el CBU?"
+    },
+    "modal": {
+      "validation": {
+        "headline": "¿Cómo obtengo mi CBU?",
+        "description": "Podés ir a cualquier banco que sea Link o Banelco y seguir estos pasos:",
+        "list": [
+          "Introducir la tarjeta en el cajero.",
+          "Colocar tu clave.",
+          "Cuando ingresás dentro de tu cuenta, tenés que elegir la opción \"Consultas\". Luego elegir la opción \"Consulta de CBU\" (si tenés más de una cuenta deberás seleccionar una de ellas).",
+          "¡Listo! El cajero te va a entregar un ticket con el CBU de tu cuenta bancaria."
+        ],
+        "action": {
+          "button": "OK!",
+          "emoji": "👌"
+        }
+      },
+      "why": {
+        "headline": "¿Qué es el CBU?",
+        "description": "El CBU es un dato súper importante y excluyente para la solicitud del crédito, ya que validará la cuenta donde se transferirá el crédito solicitado y donde haremos el débito mensual del pago de tu crédito."
+      }
+    },
+    "expirationDates": {
+      "question": "¿Cuándo preferís pagar?",
+      "description": "Seleccioná el día del mes en el que prefieras que se haga el débito automático ",
+      "answers": [
+        {
+          "label": "Primer día hábil",
+          "value": "firstday"
+        },
+        {
+          "label": "Tercer día hábil",
+          "value": "thirdday"
+        },
+        {
+          "label": "Quinto día hábil",
+          "value": "fifthday"
+        },
+        {
+          "label": "Último día hábil",
+          "value": "lastday"
+        }
+      ]
+    },
+    "input": {
+      "headlineAddress": {
+        "label": "¿Dónde vivís?",
+        "description": ""
+      },
+      "province": {
+        "label": "Provincia",
+        "placeholder": "Seleccioná tu provincia"
+      },
+      "city": {
+        "label": "Localidad",
+        "placeholder": "Seleccioná tu localidad"
+      },
+      "street": {
+        "label": "Calle",
+        "placeholder": "Av. Cordoba"
+      },
+      "details": {
+        "number": "Número",
+        "numberPlaceholder": "1234",
+        "floor": "Piso",
+        "floorPlaceholder": "PB",
+        "apartment": "Depto",
+        "apartmentPlaceholder": "A"
+      },
+      "postalCode": {
+        "label": "Código Postal",
+        "placeholder": "1665"
+      }
+    },
+    "action": "Siguiente"
+  },
+  "validateIdentity": {
+    "headline": "Preguntas de seguridad",
+    "description": "Respondé las siguientes preguntas para confirmar la solicitud de tu crédito.",
+    "action": "Siguiente"
+  },
+  "confirmation": {
+    "headline": "Revisá que todo esté en orden 👀",
+    "description": "",
+    "loan": {
+      "label": "Te vamos a prestar:",
+      "installments": " cuotas de "
+    },
+    "norminalRate": {
+      "tna": "TNA",
+      "cftea": "CFTEA",
+      "cft": "CFT",
+      "iva": "c/IVA"
+    },
+    "totalLoan": "Crédito Total",
+    "userInfo": {
+      "headline": "Se acreditará en tu cuenta",
+      "bank": "Banco Galicia",
+      "account": "Caja de Ahorro",
+      "cbu": "CBU: "
+    },
+    "payment": "El primer cobro se hará el",
+    "action": "Confirmar crédito"
+  },
+  "notifications": {
+    "productNotAvailable": {
+      "emoji": "😕",
+      "headline": "¡Ups!",
+      "description": "No tenemos ningún producto para ofrecerte",
+      "list": [
+        {
+          "text": "Revisá que cuentes con los requisitos"
+        },
+        {
+          "text": "Si tenés dudas ingresá a ",
+          "link": {
+            "text": "FAQ",
+            "url": "https://www.welp.com/preguntas-frecuentes.html"
+          }
+        },
+        {
+          "text": "Si tenés un problema",
+          "link": {
+            "text": "Llamanos",
+            "url": "tel:08001129357"
+          }
+        }
+      ]
+    },
+    "activeInstallment": {
+      "emoji": "👀",
+      "headline": "Ya tenés un crédito vigente",
+      "list": {
+        "item1": {
+          "text": "Si tenés dudas ingresa a",
+          "link": " FAQ"
+        },
+        "item2": {
+          "text": "Si tenés un problema",
+          "link": " Llamanos"
+        },
+        "item3": {
+          "text": "Seguí tu crédito en",
+          "link": " Login"
+        }
+      }
+    },
+    "emoji": "👩‍🔧",
+    "headline": "Me parece que estás perdid@",
+    "action": "Volver a empezar",
+    "nationalIdError": "El DNI ingresado no es válido."
+  },
+  "success": {
+    "headline": "¡Felicidades!",
+    "description": "Tu crédito fue aprobado. Revisá tu casilla de correo.",
+    "list": [
+      {
+        "text": "Vas a recibir un email con los pasos finales para la firma del contrato."
+      },
+      {
+        "text": "Si tenés alguna duda ingresá a ",
+        "link": {
+          "text": "FAQ",
+          "url": "https://www.welp.com/preguntas-frecuentes.html"
+        }
+      },
+      {
+        "text": "Si querés hablar con un asesor Welp ",
+        "link": {
+          "text": "Llamanos",
+          "url": "tel:08001129357"
+        }
+      }
+    ],
+    "action": {
+      "text": "Ir al Sitio Web",
+      "url": "https://www.welp.com"
+    }
+  },
+  "loadingScreen": {
+    "firstScreen": "Estamos calculando el mejor crédito para vos.",
+    "confirmation": "¡Estás a punto de lograr eso que tanto deseas!"
+  }
+}

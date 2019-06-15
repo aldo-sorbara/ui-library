@@ -1,0 +1,12 @@
+{
+  "assets-path": "''",
+  "images-path": "'#{$assets-path}/images/'",
+  "mainImg": "landing-img-presto",
+  "errorServiceImage": "error_service",
+  "productImage": "product",
+  "loading": "./public/welp_ar/loader.svg",
+  "closeModal": "./public/welp_ar/close.svg",
+  "landingBackground": "./public/welp_ar/bg_welp.png",
+  "logoInverse": "./public/welp_ar/logo-inverse.png",
+  "logo": "./public/welp_ar/logo.png"
+}

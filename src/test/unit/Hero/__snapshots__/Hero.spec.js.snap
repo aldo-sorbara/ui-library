@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero component should render snapshot 1`] = `
+.c0 {
+  background-image: url(./public/welp_ar/bg_welp.png);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 13rem 2rem 8rem;
+  text-align: center;
+}
+
+.c1 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.14;
+  color: inherit;
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.c2 {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+<div
+  className="test-card c0"
+>
+  <h1
+    className="c1"
+    style={Object {}}
+  >
+    Soña en grande
+  </h1>
+  <div
+    className="c2"
+  >
+    Hero children
+  </div>
+</div>
+`;

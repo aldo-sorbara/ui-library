@@ -1,0 +1,21 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "syntax": "scss",
+  "plugins": ["stylelint-order"],
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-prettier",
+    "stylelint-config-styled-components"
+  ],
+  "rules": {
+    "order/order": [
+      ["custom-properties", "declarations"],
+      {
+        "disableFix": true
+      }
+    ],
+    "order/properties-alphabetical-order": true,
+    "property-no-unknown": true,
+    "property-no-vendor-prefix": null,
+  }
+}

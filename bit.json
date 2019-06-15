@@ -1,0 +1,34 @@
+{
+  "env": {
+    "compiler": "bit.envs/compilers/react@0.0.14"
+  },
+  "dependencies": {
+    "wenance.common-ui/web/card": "0.0.3",
+    "wenance.common-ui/web/global": "0.0.6",
+    "wenance.common-ui/web/modal": "0.0.2",
+    "wenance.common-ui/web/texttransform": "0.0.7"
+  },
+  "extensions": {
+    "ext-docs-parser": {
+      "config": {},
+      "options": {
+        "core": true
+      }
+    }
+  },
+  "componentsDefaultDirectory": "src/components/{namespace}/{name}",
+  "saveDependenciesAsComponents": "true",
+  "packageManager": "npm",
+  "packageManagerArgs": ["--production", "--no-optional"],
+  "packageManagerProcessOptions": {
+    "shell": true
+  },
+  "useWorkspaces": "",
+  "manageWorkspaces": "true",
+  "resolveModules": {
+    "modulesDirectories": ["src"],
+    "aliases": {
+      "@": "wenance"
+    }
+  }
+}

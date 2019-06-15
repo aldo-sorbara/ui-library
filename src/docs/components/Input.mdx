@@ -1,0 +1,106 @@
+---
+name: Input
+menu: Components
+route: /input
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import Input from '../../components/web/input';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+import { styles } from '../../../utils/docz';
+
+# Input
+
+<PropsTable of={Input} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <div style={{ margin: '40px' }}>
+        <Input
+          data='ingrese su celular'
+          label='Ingrese su celular'
+          name='validationcellphone'
+          prefix='15'
+          type='number'
+          placeholder='42424242'
+        />
+      </div>
+      <div style={{ margin: '40px' }}>
+        <Input
+          data='ingrese su celular'
+          label='Ingrese su celular'
+          name='validationcellphone'
+          prefix='15'
+          description='sin el 0 y sin el 11'
+          descriptionBottom
+          type='number'
+          placeholder='42424242'
+        />
+      </div>
+      <div style={{ margin: '40px' }}>
+        <Input
+          data='ingrese-celular'
+          meta={{
+            error: 'Numero invalido',
+            dirty: true,
+            touched: true,
+            visited: true
+          }}
+          label='Ingrese su celular'
+          name='validationcellphone'
+          prefix='15'
+          type='number'
+          placeholder='42424242'
+        />
+      </div>
+      <div style={{ margin: '40px' }}>
+        <Input
+          data='ingrese-celular'
+          meta={{ valid: true, touched: true, visited: true, dirty: true }}
+          label='Ingrese su celular'
+          name='validationcellphone'
+          prefix='15'
+          type='number'
+          placeholder='42424242'
+          description='sin el 0 y sin el 11'
+          descriptionBottom
+        />
+      </div>
+      <div style={{ margin: '40px' }}>
+        <Input
+          data='ingrese su celular'
+          label='Ingrese su celular'
+          name='validationcellphone'
+          prefix='15'
+          description='sin el 0 y sin el 11'
+          descriptionBottom
+          type='number'
+          placeholder='42424242'
+          size='large'
+        />
+      </div>
+      <div style={{ margin: '40px' }}>
+        <Input
+          data='ingrese su celular'
+          label='Ingrese su celular'
+          name='validationcellphone'
+          prefix='15'
+          description='sin el 0 y sin el 11'
+          descriptionTop
+          type='number'
+          placeholder='42424242'
+          size='xLarge'
+        />
+      </div>
+    </>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/input--with-prefix-label-and-placeholder)

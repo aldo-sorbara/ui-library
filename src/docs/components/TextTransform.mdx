@@ -1,0 +1,63 @@
+---
+name: TextTransform
+menu: Components
+route: /texttransform
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import TextTransform from '../../components/web/texttransform';
+import Input from '../../components/web/input';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import { Description } from '../../components/web/global';
+import GlobalStyle from '../../components/web/globalstyle';
+import Checkbox from '../../components/web/checkbox';
+import { styles } from '../../../utils/docz';
+
+# TextTransform
+
+<PropsTable of={TextTransform} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <TextTransform modifiers={['bold']} text={'this *text* must be *bold*'} />
+      <TextTransform
+        modifiers={['italic']}
+        text={'this _text_ must be _italic_'}
+      />
+      <TextTransform
+        modifiers={['italic', 'bold']}
+        text={'this text must be _italic_ and this *bold*'}
+      />
+      <TextTransform
+        modifiers={['links']}
+        text={
+          'Acepto los [Términos y Condiciones][https://welponlinecomar.com/wp-content/uploads/2019/01/welp-tyc.pdf] and [another link][http://localhost:3001]'
+        }
+      />
+      <TextTransform modifiers={['links']} text='non special text' />
+      <Description>
+        <TextTransform
+          modifiers={['italic', 'bold']}
+          text={'this text must be _italic_ and this *bold*'}
+        />
+      </Description>
+      <Checkbox>
+        <TextTransform
+          element='p'
+          modifiers={['links']}
+          text={
+            'Acepto los [¿Términos y Condiciones?][https://welponlinecomar.com/wp-content/uploads/2019/01/welp-tyc.pdf] and [another link][http://localhost:3001]'
+          }
+        />
+      </Checkbox>
+    </>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/texttransform--with-default-props)

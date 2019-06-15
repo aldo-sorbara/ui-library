@@ -1,0 +1,42 @@
+---
+name: FormBlock
+menu: Components
+route: /formblock
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import FormBlock from '../../components/web/formblock';
+import Input from '../../components/web/input';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+import { styles } from '../../../utils/docz';
+
+# FormBlock
+
+<PropsTable of={FormBlock} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <FormBlock>
+        <Input
+          label='Ingrese su celular'
+          name='validationcellphone'
+          descriptionBottom
+          type='number'
+          prefix='15'
+          description='Sin el 0 y 15'
+          placeholder='42424242'
+          data='ingrese-celular'
+        />
+      </FormBlock>
+    </>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/formblock--with-default-props)

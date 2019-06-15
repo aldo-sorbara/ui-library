@@ -1,0 +1,34 @@
+---
+name: List
+menu: Components
+route: /list
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import { List, ListItem } from '../../components/web/list';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+import { styles } from '../../../utils/docz';
+
+# List
+
+<PropsTable of={List} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <List data='list'>
+        <ListItem>Test 1</ListItem>
+        <ListItem>Test 2</ListItem>
+        <ListItem>Test 3</ListItem>
+      </List>
+    </>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/list--with-default-props)

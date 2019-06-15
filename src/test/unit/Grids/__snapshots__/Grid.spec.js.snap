@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid component should render snapshot (only grid) 1`] = `
+.c0 {
+  -webkit-align-items: unset;
+  -webkit-box-align: unset;
+  -ms-flex-align: unset;
+  align-items: unset;
+  box-sizing: border-box;
+  display: inline-block;
+  -webkit-box-pack: unset;
+  -webkit-justify-content: unset;
+  -ms-flex-pack: unset;
+  justify-content: unset;
+  -webkit-order: unset;
+  -ms-flex-order: unset;
+  order: unset;
+  padding: 0;
+  vertical-align: top;
+  width: 25%;
+}
+
+@media (max-width:992px) {
+  .c0 {
+    width: 25%;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    width: 25%;
+  }
+}
+
+@media (max-width:576px) {
+  .c0 {
+    width: 25%;
+  }
+}
+
+<div
+  className="c0"
+>
+  This is a Grid component
+</div>
+`;
+
+exports[`Grid component should render snapshot (with container) 1`] = `
+.c0 {
+  -webkit-align-content: unset;
+  -ms-flex-line-pack: unset;
+  align-content: unset;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: 'no-wrap';
+  -ms-flex-wrap: 'no-wrap';
+  flex-wrap: 'no-wrap';
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.c1 {
+  -webkit-align-items: unset;
+  -webkit-box-align: unset;
+  -ms-flex-align: unset;
+  align-items: unset;
+  box-sizing: border-box;
+  display: inline-block;
+  -webkit-box-pack: unset;
+  -webkit-justify-content: unset;
+  -ms-flex-pack: unset;
+  justify-content: unset;
+  -webkit-order: unset;
+  -ms-flex-order: unset;
+  order: unset;
+  padding: 0;
+  vertical-align: top;
+  width: 75%;
+}
+
+@media (max-width:992px) {
+  .c1 {
+    width: 75%;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 {
+    width: 75%;
+  }
+}
+
+@media (max-width:576px) {
+  .c1 {
+    width: 75%;
+  }
+}
+
+<div
+  className="c0"
+  size={100}
+>
+  <div
+    className="c1"
+  >
+    This is a Grid component with container
+  </div>
+</div>
+`;

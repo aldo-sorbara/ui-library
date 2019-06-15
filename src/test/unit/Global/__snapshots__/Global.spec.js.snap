@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bind component should render Bind snapshot 1`] = `
+.c0 {
+  background: linear-gradient(to Left,rgba(0,0,0,0.4),rgba(0,0,0,0));
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 3rem;
+}
+
+<div
+  className="test-bind c0"
+  data="bind"
+/>
+`;
+
+exports[`Container component should render container snapshot 1`] = `
+.c0 {
+  background-color: transparent;
+  margin: 0 auto;
+  max-width: unset;
+}
+
+<div
+  className="test-container c0"
+  data="container"
+>
+  This is a container
+</div>
+`;
+
+exports[`ContainerDesktop component should render ContainerDesktop snapshot 1`] = `
+.c0 {
+  background: linear-gradient( 135deg, #0082ff 0%, #3a66ab 80% );
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+<div
+  className="test-containerDesktop c0"
+  data="container-desktop"
+>
+  This is a ContainerDesktop component
+</div>
+`;
+
+exports[`Description component should render Description snapshot 1`] = `
+.c0 {
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+<p
+  className="test-description c0"
+  data="description"
+>
+  This is a description
+</p>
+`;
+
+exports[`Desktop component should render Desktop snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+<div
+  className="test-desktop c0"
+  data="desktop"
+/>
+`;
+
+exports[`DesktopText component should render DesktopText snapshot 1`] = `
+.c0 {
+  text-align: center;
+}
+
+<div
+  className="test-desktopText c0"
+  data="desktop-text"
+>
+  This is a DesktopText component
+</div>
+`;
+
+exports[`H1 component should render H1 snapshot 1`] = `
+.c0 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 64px;
+  margin-top: 0;
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.14;
+  position: relative;
+  z-index: 2;
+}
+
+<h1
+  className="test-h1 c0"
+  data="h1"
+>
+  This is an H1 component
+</h1>
+`;
+
+exports[`Headline component should render Headline snapshot 1`] = `
+.c0 {
+  margin-bottom: .5rem;
+  margin-left: 0;
+  margin-top: 0;
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+<h1
+  className="test-headline c0"
+  data="headline"
+>
+  This is a headline
+</h1>
+`;
+
+exports[`Label component should render Label snapshot 1`] = `
+.c0 {
+  margin-bottom: .25rem;
+  margin-top: 20;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.33;
+}
+
+<label
+  className="test-label c0"
+  data="label"
+>
+  This is a label
+</label>
+`;
+
+exports[`LabelLarge component should render LabelLarge snapshot 1`] = `
+.c0 {
+  margin-bottom: .25rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+<label
+  className="test-labelLarge c0"
+  data="label-large"
+>
+  This is a label large
+</label>
+`;
+
+exports[`Legales component should render Legales snapshot 1`] = `
+.c0 {
+  border-bottom: 1px solid #d5d8df;
+  margin-bottom: 1rem;
+  margin-top: .25rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+<p
+  className="test-legales c0"
+  data="legales"
+>
+  This is a legales
+</p>
+`;
+
+exports[`Logo component should render Logo snapshot 1`] = `
+.c0 {
+  left: 30px;
+  position: absolute;
+  top: 30px;
+}
+
+<img
+  className="test-logo c0"
+  data="logo"
+/>
+`;
+
+exports[`LogoMobile component should render LogoMobile snapshot 1`] = `
+.c0 {
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+
+<img
+  className="test-logo-mobile c0"
+  data="logo-mobile"
+/>
+`;
+
+exports[`Onboarding component should render Onboarding snapshot 1`] = `
+.c0 {
+  background-color: #ffffff;
+  overflow-y: auto;
+  position: relative;
+  width: 768px;
+}
+
+<div
+  className="test-onboarding c0"
+  data="onboarding"
+>
+  This is an Onboarding component
+</div>
+`;
+
+exports[`SecondHeadline component should render SecondHeadline snapshot 1`] = `
+.c0 {
+  margin-bottom: .5rem;
+  margin-top: 0;
+}
+
+<h2
+  className="test-secondHeadline c0"
+  data="second-headline"
+>
+  This is a Second Headline
+</h2>
+`;
+
+exports[`SectionDescription component should render SectionDescription snapshot 1`] = `
+.c0 {
+  color: #ffffff;
+  display: inline-block;
+  font-weight: normal;
+  max-width: 230px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.33;
+  position: relative;
+  z-index: 2;
+}
+
+<p
+  className="test-sectionDescription c0"
+  data="section-description"
+>
+  This is a SectionDescription component
+</p>
+`;
+
+exports[`Terms component should render Terms snapshot 1`] = `
+.c0 {
+  border-top: 1px solid;
+  font-size: .75rem;
+  font-weight: 400;
+  line-height: 1.33;
+  padding-top: 1.25rem;
+}
+
+.c0 > p:nth-child(1) {
+  font-weight: bold;
+}
+
+<div
+  className="test-terms c0"
+  data="terms"
+>
+  This is a Terms component
+</div>
+`;
+
+exports[`TextPromotion component should render TextPromotion snapshot 1`] = `
+.c0 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+<div
+  className="test-text-promotion c0"
+  data="text-promotion"
+>
+  This is a TextPromotion component
+</div>
+`;
+
+exports[`Timer component should render Timer snapshot 1`] = `
+.c0 {
+  display: inline-block;
+  padding-left: 0.25rem;
+}
+
+<span
+  className="test-timer c0"
+  data="timer"
+>
+  This is a Timer component
+</span>
+`;
+
+exports[`UrlLink component should render UrlLink snapshot 1`] = `
+.c0 {
+  cursor: pointer;
+  display: block;
+  font-weight: 700;
+  margin-top: 1rem;
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+}
+
+<div
+  className="test-urlLink c0"
+  data="url-link"
+>
+  This is an UrlLink component
+</div>
+`;
+
+exports[`Wrapper component should render Wrapper snapshot 1`] = `
+.c0 {
+  overflow-x: hidden;
+  padding: 2rem;
+  text-align: left;
+}
+
+<div
+  className="test-wrapper c0"
+  data="wrapper"
+>
+  This is a wrapper
+</div>
+`;

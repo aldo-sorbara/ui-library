@@ -1,0 +1,4 @@
+# Dist folders
+src/components/**/**/dist/*.*
+src/branding/**
+dist/*

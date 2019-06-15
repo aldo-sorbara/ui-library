@@ -1,0 +1,42 @@
+{
+  "BRAND": "welp",
+  "CAMUNDA": "onboarding",
+  "GAUA": "UA-86879963-20",
+  "TITLE": "Welp, sos libre para construir tu destino",
+  "MONEY_PREFIX":"$",
+  "STEPS": 8,
+  "LEAD_STEPS": 5,
+  "MIN_AMOUNT": 5000,
+  "MAX_AMOUNT": 300000,
+  "START_AMOUNT": 40000,
+  "CAMUNDA_BRAND": "WELP_AR",
+  "COUNTRY":"ar",
+  "COUNTRY_ID":"1",
+  "GTM": {
+    "dev": "GTM-TDWHMJL",
+    "stage": "",
+    "prod": "GTM-PT73BVF"
+  },
+  "FACEBOOK": {
+    "APPID": "2303089483269224",
+    "REDIRECT_URI": {
+      "dev": "http://onboarding-welp.dev.fintechpeople.io/?utm_source=facebook&facebook=true&redirect=true",
+      "stage": "https://onboarding-welp.stage.fintechpeople.io/?utm_source=facebook&facebook=true&redirect=true",
+      "prod": "https://app.welp.com/?utm_source=FB&facebook=true&source=FB&utm_medium=display&utm_campaign=conversion&medium=display&adGroup=welpar&redirect=true"
+    },
+    "SEND": {
+      "PROCCESS_ID": "leads_argentina"
+    },
+    "API_VERSION": "3.0"
+  },
+  "AW": "AW-786305638",
+  "AWPROD": "C47ICMuCwIsBEOak-PYC",
+  "AWSUCCESS": "l5CYCMOWi4wBEOak-PYC",
+  "FBADS": "559470874243094",
+
+  "DESCRIPTION": "Créditos personales 100% online, con plazos y tasas a tu medida.",
+  "KEYWORDS": "Préstamo, Crédito, Welp, Efectivo, Cash",
+  "LANG": "es-AR",
+  "FAVICON": "./welp_ar/favicon.png",
+  "NEW_RELIC": "./welp_ar/newRelic/"
+}

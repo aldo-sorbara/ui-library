@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component should render List snapshot 1`] = `
+.c0 {
+  margin: 0;
+}
+
+.c1 {
+  margin-bottom: .5rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25;
+  padding: 0 0 0 1rem;
+}
+
+.c1:last-child {
+  margin-bottom: 0;
+}
+
+.c1:before {
+  background-color: #0082FF;
+  border-color: #0082FF;
+  top: .25rem;
+}
+
+<ul
+  className="test-list c0"
+  data="list"
+>
+  <li
+    className="c1"
+  >
+    Test 1
+  </li>
+  <li
+    className="c1"
+  >
+    Test 2
+  </li>
+  <li
+    className="c1"
+  >
+    Test 3
+  </li>
+</ul>
+`;

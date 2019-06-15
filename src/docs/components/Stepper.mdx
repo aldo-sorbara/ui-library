@@ -1,0 +1,29 @@
+---
+name: Stepper
+menu: Components
+route: /stepper
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import Stepper from '../../components/web/stepper';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+
+# Stepper
+
+<PropsTable of={Stepper} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <Stepper steps={4} currentStep={2} />
+    </>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/stepper--with-default-props)

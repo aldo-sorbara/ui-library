@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Emoji component should render snapshot 1`] = `
+<span
+  className=""
+>
+  This is a Emoji component 
+  <img
+    alt="👌"
+    src="http://twemoji.maxcdn.com/2/72x72/1f44c.png"
+    style={
+      Object {
+        "height": "1em",
+        "margin": "0 .05em 0 .1em",
+        "verticalAlign": "-0.1em",
+        "width": "1em",
+      }
+    }
+  />
+</span>
+`;

@@ -1,0 +1,45 @@
+---
+name: Checkbox
+menu: Components
+route: /checkbox
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import Checkbox from '../../components/web/checkbox';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+import { styles } from '../../../utils/docz';
+
+# Checkbox
+
+<PropsTable of={Checkbox} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <Checkbox
+        data='checkbox'
+        onChange={e => {
+          console.log(e.target.checked);
+        }}
+      >
+        This is a checkbox.
+      </Checkbox>
+      <Checkbox
+        data='checkbox2'
+        onChange={e => {
+          console.log(e.target.checked);
+        }}
+      >
+        This is another <a href=''>checkbox with link </a>
+      </Checkbox>
+    </>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/checkbox--with-default-props)

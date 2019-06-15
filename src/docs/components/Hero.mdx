@@ -1,0 +1,45 @@
+---
+name: Hero
+menu: Components
+route: /hero
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import Hero from '../../components/web/hero';
+import { Button } from '../../components/web/button';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+import { styles } from '../../../utils/docz';
+
+# Hero
+
+<PropsTable of={Hero} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <Hero
+        title='Soña en grande'
+        style={{ backgroundColor: '#0082FF' }}
+        action={
+          <Button
+            modifiers={['inverse']}
+            handleOnClick={() => console.log('CLICKED')}
+            data='siguente'
+          >
+            Comenzar
+          </Button>
+        }
+      >
+        Créditos personales 100% online, con plazos y tasas a tu medida.
+      </Hero>
+    </>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/hero--with-title)

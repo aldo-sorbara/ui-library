@@ -1,0 +1,10 @@
+{
+  "appBar": 120,
+  "autoComplete": 1200,
+  "checkbox": 1,
+  "loaderContainer": 1020,
+  "stepList": 1,
+  "modal": 1050,
+  "stepper": 1000,
+  "container": 1
+}

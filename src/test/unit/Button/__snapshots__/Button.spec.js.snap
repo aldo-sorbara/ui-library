@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should render ButtonContainer snapshot 1`] = `
+.c0 {
+  padding: 0 2rem 2rem;
+}
+
+<div
+  className="test-buttonContainer c0"
+  data="button-container"
+>
+  <div>
+    This is a button container
+  </div>
+</div>
+`;
+
+exports[`Button component should render snapshot 1`] = `
+.c0 {
+  border-radius: undefined;
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  opacity: 1;
+  padding: 1rem 2rem;
+  text-align: center;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+  background-color: #0082ff;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.c0:hover:enabled {
+  background-color: #3a66ab;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:disabled,
+.c0 button[disabled] {
+  opacity: 0.3;
+}
+
+<button
+  className="test-button c0"
+  data="click-me"
+  data-w="click-me"
+  disabled={false}
+>
+  Click me
+</button>
+`;

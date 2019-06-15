@@ -1,0 +1,32 @@
+---
+name: AppBar
+menu: Components
+route: /appbar
+---
+
+import { Playground, PropsTable } from 'docz';
+import { Fragment } from 'react';
+import AppBar from '../../components/web/appbar';
+import { ThemeProvider } from 'styled-components';
+import welp_ar from '../../branding/brands/welp_ar';
+import GlobalStyle from '../../components/web/globalstyle';
+import { styles } from '../../../utils/docz';
+
+# AppBar
+
+<PropsTable of={AppBar} />
+
+## Basic usage
+
+<Playground>
+  <ThemeProvider theme={welp_ar.theme}>
+    <>
+      <GlobalStyle theme={welp_ar.theme} />
+      <AppBar />
+      <AppBar inverse style={{ background: '#000000' }} />
+      <AppBar sticky style={{ background: '#FFFFFF', left: 'auto' }} />
+    </>
+  </ThemeProvider>
+</Playground>
+
+[Try it on Storybook!](./storybook/index.html?path=/story/appbar--with-default-props)

@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snackbar component should render snapshot 1`] = `
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 p {
+  margin-bottom: 0;
+}
+
+.c2 span:nth-child(2) {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.c3 {
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-size: 0;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 0.75rem;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  bottom: 2px;
+  position: relative;
+  text-align: center;
+  width: 40px;
+}
+
+.c3 > svg {
+  position: relative;
+  top: 0.5rem;
+}
+
+.c1 {
+  -webkit-animation: bNHMNQ 4s ease-in-out;
+  animation: bNHMNQ 4s ease-in-out;
+  background-color: #e0f6f9;
+  border: 1px solid transparent;
+  color: #127a87;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  line-height: 1.25;
+  margin-top: 0;
+  font-size: .875rem;
+  padding: 0.75rem 1rem 0.75rem 1rem;
+  z-index: 9999;
+}
+
+.c1:empty {
+  display: none;
+}
+
+.c1 ~ .c0 {
+  margin-top: .25rem;
+}
+
+.c1 > p {
+  margin-top: 0;
+}
+
+.c1 > p:last-child {
+  margin-bottom: 0;
+}
+
+<div
+  className="c0 c1"
+>
+  <div
+    className="c2"
+  >
+    <span
+      className="c3"
+      content="Si no recibiste el código podés reenviarlo usando el siguiente link."
+    >
+      <svg
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+          fill="currentColor"
+        />
+      </svg>
+    </span>
+    <p>
+      <span>
+        <strong>
+          ¡Revisá tus mensajes!
+        </strong>
+      </span>
+      <span>
+        Si no recibiste el código podés reenviarlo usando el siguiente link.
+      </span>
+    </p>
+  </div>
+</div>
+`;
